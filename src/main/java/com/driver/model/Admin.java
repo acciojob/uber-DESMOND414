@@ -13,6 +13,14 @@ public class Admin {
 
     String password;
 
+    public int getAdminId() {
+        return adminId;
+    }
+
+    public void setAdminId(int adminId) {
+        this.adminId = adminId;
+    }
+
     public Admin(String userName, String password) {
         this.userName = userName;
         this.password = password;

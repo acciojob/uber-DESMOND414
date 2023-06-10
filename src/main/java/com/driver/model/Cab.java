@@ -27,6 +27,22 @@ public class Cab {
         return available;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Driver getDriver() {
+        return driver;
+    }
+
+    public void setDriver(Driver driver) {
+        this.driver = driver;
+    }
+
     public void setAvailable(boolean available) {
         this.available = available;
     }
